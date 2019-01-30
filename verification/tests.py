@@ -30,7 +30,7 @@ TESTS = {
     "Extra": [
         {
             "input": ['>Apple< is simple', '>', '<'],
-            "answer": 'apple'
+            "answer": 'Apple'
         }
     ]
 }
