@@ -1,0 +1,46 @@
+<p>
+    Dan Vam je string i dva markera (početni i završni). Nađite podstring okružen tim markerima. Ali postoji nekoliko važnih uvjeta.
+</p>
+
+<p>Ovo je pojednostavljena misija verzije <a href="/mission/between-markers/">Između markera</a>.</p>
+
+<ul>
+	<li>Inicijalni i konačni markeri su uvijek različiti.</li>
+	<li>Inicijalni i konačni markeri su uvijek 1 znak (char) veličine.</li>
+	<li>Inicijalni i konačni markeri uvijek postoje u stringu i idu jedno iza drugog.</li>
+</ul>
+
+<p>
+    <strong>Ulaz: </strong> Tri argumenta. Svaki od njih su tipa string. Drugi i treći arugmenti su početni i konačni (završni)
+markeri.
+</p>
+
+<p>
+    <strong>Izlaz: </strong> String. 
+</p>
+
+
+
+<div class="for_info_only">
+    <p>
+        <strong>Primjer:</strong>
+    </p>
+
+{% if interpreter.slug == "js-node" %}
+<pre class="brush: javascript">betweenMarkers('What is >apple<', '>', '<') == 'apple'
+</pre>
+{% else %}
+<pre class="brush: python">between_markers('What is >apple<', '>', '<') == 'apple'
+</pre>
+{% endif %}
+</div>
+
+<p class="for_info_only">
+    <strong>Gdje se ovo može primjeniti: </strong>
+    <i>Za raščlanjivanje teksta.</i>
+</p>
+
+<p>
+    <strong>Preduvjet:</strong>
+    <i>Ne može biti više od jednog konačnog i jedno početnog markera.</i>
+</p>
